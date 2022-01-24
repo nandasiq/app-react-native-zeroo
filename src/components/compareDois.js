@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         height: 350,
         marginLeft: 20,
-        border : '2px solid gray',
+        borderWidth: 5,
+        borderColor:"gray",
         margin: 'auto',
         marginTop: 30
 
