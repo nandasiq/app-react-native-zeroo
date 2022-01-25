@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         height: 160,
         marginLeft: 20,
         borderWidth: 5,
-        borderColor:"gray",
+        borderColor:"#e6e6e6",
         margin: 'auto',
 
     },
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
         marginTop: 15,
     },
     linha:{
-        backgroundColor: 'gray',
+        backgroundColor: '#f9f9f9',
         flex: 1,
         height: 100,
         padding: 10,

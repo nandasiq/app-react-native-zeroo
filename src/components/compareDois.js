@@ -39,6 +39,7 @@ const CompareDois = () => {
                     <Text style={styles.porcentagem}> 19,76% </Text>
                 </View>
             </View>
+            <View style={styles.linha}/>
         </SafeAreaView>
     );
 }
@@ -50,11 +51,11 @@ const styles = StyleSheet.create({
     },
     card: {
         flex: 0.3,
-        backgroundColor: '#fff',
+        
         height: 350,
         marginLeft: 20,
         borderWidth: 5,
-        borderColor:"gray",
+        borderColor:"#e6e6e6",
         margin: 'auto',
         marginTop: 30
 
@@ -117,6 +118,13 @@ const styles = StyleSheet.create({
         fontSize: 40,
         textAlign: 'center',
         color: 'black',
+    },
+    linha: {
+        backgroundColor: '#f9f9f9',
+        flex: 1,
+        height: 100,
+        padding: 10,
+        marginTop: 340,
     }
 
 });
